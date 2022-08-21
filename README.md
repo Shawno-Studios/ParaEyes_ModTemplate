@@ -1,5 +1,5 @@
-# ParaEyes_ModTemplate
-A mod template for ParaEyes
+# ParaEyes ModTemplate
+A mod template for the horror game ParaEyes
 
 ## How to use this?
 
