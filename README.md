@@ -10,8 +10,8 @@ Using this mod template is easy.
 4. Open the template we made in step 2 (it can be found on your Github profile) and click the green "Code" button. Then click "Open with Github Desktop". This will download your mod to your PC.
 5. When inside of Github Desktop, follow the prompts to download your mod. Then click the "Show In Explorer" button. This will open the File Explorer with all your mod's files.
 6. Open "ParaEyes_ModTempalte.sln" file with Visual Studio.
-7. Fill out the "modName", "modVersion", and "modAuthor" variables. Also, fill out the line that says this: ```[BepInPlugin("modAuthor.modName", "modName", "modVersion")]``` .
-8. Go to the Solution Explorer (on the right of Visual Studio) and open the "dependencies.targets" file. It can also be found in the File Explorer from step 5. Adjust the "GameDirectory" line at the top to be the filepath to the game on your PC. This is the folder you installed ParaEyes to (same as step 1).
+7. All of your code will go in the MyMod.cs file. You can open it on the right of Visual Studio in the Solution Explorer. Fill out the "modName", "modVersion", and "modAuthor" variables. Also, fill out the line that says this: ```[BepInPlugin("modAuthor.modName", "modName", "modVersion")]``` .
+8. Go to the Solution Explorer and open the "dependencies.targets" file. It can also be found in the File Explorer from step 5. Adjust the "GameDirectory" line at the top to be the filepath to the game on your PC. This is the folder you installed ParaEyes to (same as step 1).
 9. The last step you need to do is rename the project to whatever you want your mod to be called. This sets the name of the actual mod file so it's an important step. 
 10. You're done and ready to go. Start making your mod and when you're ready to test it, just build it and it will automatically be copied to the game's mods folder.
 
