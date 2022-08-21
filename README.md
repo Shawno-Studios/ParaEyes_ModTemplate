@@ -15,5 +15,10 @@ Using this mod template is easy.
 9. The last step you need to do is rename the project to whatever you want your mod to be called. This sets the name of the actual mod file so it's an important step. 
 10. You're done and ready to go. Start making your mod and when you're ready to test it, just build it and it will automatically be copied to the game's mods folder.
 
+Additional Info:
+- You can use [DnSpy](https://github.com/dnSpy/dnSpy/releases/latest) to view the actual game code for ParaEyes. This is helpful for seeing where you want your code to run.
+- It is possible to hook actual game functions so your code runs seamlessly alongside ParaEyes. Learn more by checking out the provided starter hook [HERE](https://github.com/gurrenm3/ParaEyes_ModTemplate/blob/master/ModTemplate/Harmony%20Patches/MainMenu_Start.cs), or look up "How to hook Unity games with Harmony and BepinEx"
+
+
 Discord: 
 https://discord.com/invite/w3JNgK3HXk
