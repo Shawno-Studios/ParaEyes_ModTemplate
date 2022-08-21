@@ -18,7 +18,7 @@ namespace ModTemplate
 
 
         /// <summary>
-        /// This code runs automatically as soon as the mod is registered by MelonLoader.
+        /// This code runs automatically as soon as the mod is registered by BepInEx.
         /// </summary>
         public void Awake()
         {
@@ -29,7 +29,6 @@ namespace ModTemplate
             // <-- Your code goes below here --> //
 
             Logger.LogInfo($"{modName} has loaded");
-            System.Console.WriteLine("The mod has loaded");
         }
     }
 }

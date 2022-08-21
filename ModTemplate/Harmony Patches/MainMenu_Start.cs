@@ -14,7 +14,7 @@ namespace ModTemplate.Harmony_Patches
         internal static bool Prefix(MainMenu __instance) // __instance is the actual instance that called the method.
         {
             // This is a "Prefix" harmony patch. It will run BEFORE the game will run it's original
-            // method, which in this case is UITitleManager.PlayTitleAnimation
+            // method, which in this case is MainMenu.Start
 
 
             // <-- Your Code Here --> //
