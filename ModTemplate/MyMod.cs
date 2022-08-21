@@ -5,7 +5,7 @@ using System.Reflection;
 
 namespace ModTemplate
 {
-    [BepInPlugin("GurrenM4.ModTemplate", "ModTemplate", "1.0.0")]
+    [BepInPlugin("modAuthor.modName", "modName", "modVersion")]
     public class MyMod : BaseUnityPlugin
     {
         #region Mod Info
